@@ -1,0 +1,26 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "7dea1a628310977582890d3070d84af7"
+name = "Qikify CO Custom - Dineamic-T"
+handle = "qikify-co-custom-dineamic"
+application_url = "https://marble-ideal-updating-way.trycloudflare.com/"
+embedded = true
+
+[build]
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+use_legacy_install_flow = true
+
+[auth]
+redirect_urls = [
+  "https://marble-ideal-updating-way.trycloudflare.com/auth/callback",
+  "https://marble-ideal-updating-way.trycloudflare.com/auth/shopify/callback",
+  "https://marble-ideal-updating-way.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2025-07"
+
+[pos]
+embedded = false

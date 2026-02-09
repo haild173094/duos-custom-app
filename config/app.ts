@@ -1,0 +1,9 @@
+export default {
+  ENV: process.env.ENV,
+  API_URL: process.env.API_URL,
+  API_VERSION: process.env.SHOPIFY_API_VERSION,
+  STORE_CURRENCY_CONVERSION_TYPE: 'duos',
+  STORE_CURRENCY_CONVERSION_HANDLE: 'conversion-rate',
+  STORE_CURRENCY_CONVERSION_KEY: 'rate',
+  DEFAULT_EXCHANGE_BASE: 1000000000000,
+};

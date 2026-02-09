@@ -1,0 +1,18 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "549bff64d0a7a011860a4cdc8310e13a"
+application_url = "https://example.com/"
+embedded = true
+name = "Qikify CO Custom - Dineamic"
+handle = "qikify-co-custom-dineamic-1"
+
+[webhooks]
+api_version = "2025-07"
+
+[auth]
+redirect_urls = [ "https://example.com/api/auth" ]
+
+[pos]
+embedded = false
+
+[build]

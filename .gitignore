@@ -1,0 +1,26 @@
+# Environment Configuration
+.env
+.env.local
+
+# Dependency directory
+node_modules
+
+# vite build output
+dist/
+
+# extensions build output
+extensions/*/build
+
+# Partners can use npm, yarn or pnpm with the CLI.
+# We ignore lock files so they don't get a package manager mis-match
+# Without this, they may get a warning if using a different package manager to us
+yarn.lock
+package-lock.json
+
+# Ignore Apple macOS Desktop Services Store
+.DS_Store
+
+.vscode
+
+shopify.app.toml
+shopify.app.local.toml
