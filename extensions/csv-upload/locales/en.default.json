@@ -1,0 +1,8 @@
+{
+  "earnPoints": "You've earned 1,000 points from this order. You've been upgraded to Platinum tier.",
+  "location_picker": {
+    "choose": "Choose your location",
+    "search_placeholder": "Search location",
+    "select": "Select location"
+  }
+}

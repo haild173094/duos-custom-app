@@ -1,0 +1,57 @@
+{
+  "quick_order_page_title": "Quick order",
+  "quick_order_page_sub_title": "Simply enter the desired product or variant SKUs and quantities to be added to the cart",
+  "add_line": "Add more line",
+  "update_order_summary": "Update order summary",
+  "create_order": "Create order",
+  "sku": "SKU",
+  "quantity": "Quantity",
+  "available_stock": "Available stock",
+  "actions": "Actions",
+  "sku_error": {
+    "no_product": "There is no products with this SKU",
+    "empty": "Please fill out this sku input",
+    "duplicate": "This sku is already exist in this order list",
+    "not_in_location": "This sku's product variant is not available in current location"
+  },
+  "increment": "Increment",
+  "minimum": "Minimum",
+  "maximum": "Maximum",
+  "quantity_error": {
+    "min_and_step": "The quantity must be bigger than {{min}} and increment by {{step}}",
+    "min_max_and_step": "The quantity must be between {{min}} and {{max}}, and increment by {{step}}",
+    "exceed_inventory": "The quantity has exceeded the current line item's inventory limit"
+  },
+  "api_error": {
+    "fetch_variant": "Fail to fetch product variant"
+  },
+  "location_picker": {
+    "choose": "Choose your location",
+    "search_placeholder": "Search location",
+    "select": "Select location"
+  },
+  "quick_order_location_picker": {
+    "title": "Select location you are buying for:",
+    "next_step_button": "Go to add SKUs",
+    "banner_info": "Please make sure shopping location matches the one selected on the shop website."
+  },
+  "inventory_not_tracked": "Inventory not tracked",
+  "bulk_skus_modal": {
+    "activator": "Bulk add SKUs",
+    "title": "Bulk add SKUs",
+    "help_text": "Enter multiple SKUs and quantity separate by new lines. For example:",
+    "action": "Add to order",
+    "error": {
+      "wrong_format": "Your input has wrong format.",
+      "duplicate": "You have some duplicated skus: {{skus}}",
+      "not_in_location": "You have some skus that are not available in current location: {{skus}}.",
+      "not_exist_variant": "You have some invalid skus: {{skus}}.",
+      "exceed_sku_limitation": "You can not add more than 100 skus at once"
+    }
+  },
+  "step_navigator": {
+    "back": "Back",
+    "go_to_order_summary": "Go to order summary",
+    "create_order": "Create order"
+  }
+}
